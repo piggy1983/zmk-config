@@ -3,7 +3,7 @@
 
 if SHIELD_MINIDOX
 
-config ZMK_MINIDOX
+config ZMK_KEYBOARD_NAME
     default "MINIDOX"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
