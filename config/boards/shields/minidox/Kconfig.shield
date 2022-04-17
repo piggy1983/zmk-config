@@ -1,16 +1,5 @@
-if SHIELD_MINIDOX
+config SHIELD_MINIDOX_LEFT
+    def_bool $(shields_list_contains,minidox_left)
 
-config ZMK_MINIDOX
-    default "MINIDOX"
-
-config ZMK_SPLIT_BLE_ROLE_CENTRAL
-    default y
-
-endif
-
-if SHIELD_MINIDOX_LEFT || SHIELD_MINIDOX_RIGHT
-
-config ZMK_SPLIT
-    default y
-
-endif
+config SHIELD_MINIDOX_RIGHT
+    def_bool $(shields_list_contains,minidox_right)
