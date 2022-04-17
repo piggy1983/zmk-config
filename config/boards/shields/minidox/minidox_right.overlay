@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
  
-#include "choc_ergo.dtsi"
+#include "minidox.dtsi"
 
 &default_transform {
 	col-offset = <17>;
