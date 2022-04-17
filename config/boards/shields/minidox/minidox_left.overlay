@@ -4,4 +4,4 @@
  * SPDX-License-Identifier: MIT
  */
  
-#include "choc_ergo.dtsi"
+#include "minidox.dtsi"
