@@ -15,7 +15,7 @@
 default_transform: keymap_transform_0 {
 		compatible = "zmk,matrix-transform";
 		columns = <4>;
-		rows = <4>;
+		rows = <3>;
 		
 		map = <
 RC(0,0)  RC(0,1)  RC(0,2)  RC(0,3)  RC(0,4)    RC(0,4)   RC(0,3) RC(0,2) RC(0,1) RC(0,0)
@@ -25,23 +25,16 @@ RC(2,0)  RC(2,1)  RC(2,2)  RC(2,3)  RC(2,4)    RC(2,4)  RC(2,3) RC(2,2) RC(2,1) 
 		>;
 	};
 
-	kscan0: kscan_0 {
+	kscan0: kscan {
 		compatible = "zmk,kscan-gpio-matrix";
 		label = "KSCAN";
+
 		diode-direction = "col2row";
-		
-		col-gpios
-			= <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			, <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			, <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			, <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			;
-			
 		row-gpios
-			= <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			, <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			= <&pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			, <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			, <&pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			;
 	};
 };
