@@ -13,9 +13,9 @@
 // |    Z    |    X    |    C    |    V    |    B    |        |    N    |    M    |    ,    |    .    |    /    |
 //                     | RETURN  |  SPACE  | BSPC    |        |  RETURN |  SPACE  |   BSPC  |
             bindings = <
-    &kp Q    &kp W    &kp E        &kp R     &kp T               &kp Y     &kp U     &kp I     &kp O     &kp P 
-    &kp A    &kp S    &kp D        &kp F     &kp G               &kp H     &kp J     &bt BT_CLR     &kp L     &kp SEMI
-    &kp Z    &kp X    &kp C        &kp V     &kp B               &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH
+    &kp Q    &kp W    &kp E        &kp R     &kp T               &kp Y     &kp U     &kp I      &kp O     &kp P 
+    &kp A    &kp S    &kp D        &kp F     &kp G               &kp H     &kp J     &bt BT_CLR &kp L     &kp SEMI
+    &kp Z    &kp X    &kp C        &kp V     &kp B               &kp N     &kp M     &kp COMMA  &kp DOT   &kp FSLH
                       &kp LSHFT    &kp SPACE &kp RET             &kp RET   &kp SPACE &kp BSPC
             >;
         };
