@@ -11,13 +11,28 @@
 // |    Q    |    W    |    E    |    R    |    T    |        |    Y    |    U    |    I    |    O    |    P    |
 // |    A    |    S    |    D    |    F    |    G    |        |    H    |    J    |    K    |    L    |    ;    |
 // |    Z    |    X    |    C    |    V    |    B    |        |    N    |    M    |    ,    |    .    |    /    |
-//                     | RETURN  |  SPACE  | BSPC    |        |  RETURN |  SPACE  |   BSPC  |
+//                     | NAV     |   Sym   |   SHFT  |        |  RETURN |  SPACE  |   BSPC  |
             bindings = <
-    &kp Q    &kp W    &kp E       &kp R      &kp T               &kp Y       &kp U      &kp I      &kp O     &kp P 
-    &kp A    &kp S    &kp D       &kp F      &kp G               &kp H       &kp J      &kp SPACE  &kp L     &kp SEMI
-    &kp Z    &kp X    &kp C       &kp V      &kp B               &kp N       &kp M      &kp COMMA  &kp DOT   &kp FSLH
-                      &kp LSHFT   &bt BT_CLR &bt BT_CLR          &kp O       &bt BT_CLR &kp BSPC
+      &kp Q     &kp W      &kp E     &kp R     &kp T             &kp Y     &kp U      &kp I      &kp O     &kp P 
+      &kp A     &kp S      &kp D     &kp F     &kp G             &kp H     &kp J      &kp K      &kp L     &kp SEMI
+      &kp Z     &kp X      &kp C     &kp V     &kp B             &kp N     &kp M      &kp COMMA  &kp DOT   &kp FSLH
+                           &mo 1     &kp LGUI  &kp LSHFT         &kp RET   &kp SPACE  &kp BSPC
             >;
         };
+        
+        nav_layer {
+// -----------------------------------------------------------------------------------------
+// |  BTCLR  |         |    ESC   |    ~    |        |         |   TAB  |         |   HOME  |    UP   |   END   |
+// |   BT1   |         |    ALT   |   CTRL  |        |         |    /   |         |   LEFT  |   DOWN  |  RIGHT  |
+// |   BT2   |         |          |         |        |         |    \   |   ENT   |         |         |         |
+//                     |          |         |        |         |        |         |         |
+                        bindings = <
+ &bt BT_CLR    &trans    &kp ESC   &kp TILDE  &trans            &kp TAB   &trans    &kp HOME   &kp UP    &kp END
+ &bt BT_SEL 0  &tran     &kp RALT  &kp LCTRL  &trans            &kp FSLH  &trans    &kp LEFT   &kp DOWN  &kp RIGHT
+ &bt BT_SEL 1  &trans    &trans    &trans     &trans            &kp BSLH  &tran     &trans     &trans    &trans
+                         &trans    &trans     &trans            &trans    &trans    &trans
+                        >;
+                };
+        
     };
 };
