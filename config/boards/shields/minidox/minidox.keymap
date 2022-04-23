@@ -16,17 +16,17 @@
       >;
     };
 
-    Lower_layer {
-      bindings = <
-        &trans &trans &trans &trans &trans &kp ASTERISK &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp undefined &trans &trans &bt BT_CLR &bt BT_NXT &bt BT_PRV &kp SLASH &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp MINUS &trans &trans &kp K_CUT &kp K_COPY &kp K_PASTE &kp UP &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &trans &trans &trans &kp LEFT &kp DOWN &kp RIGHT 
-      >;
-    };
+//    Lower_layer {
+//      bindings = <
+//        &trans &trans &trans &trans &trans &kp ASTERISK &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp undefined &trans &trans &bt BT_CLR &bt BT_NXT &bt BT_PRV &kp SLASH &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp MINUS &trans &trans &kp K_CUT &kp K_COPY &kp K_PASTE &kp UP &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &trans &trans &trans &kp LEFT &kp DOWN &kp RIGHT 
+//      >;
+//    };
 
-    Raise_layer {
-      bindings = <
-        &kp EXCLAMATION &kp AT_SIGN &kp HASH &kp DOLLAR &kp PERCENT &kp CARET &kp AMPERSAND &kp ASTERISK &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &trans &trans &trans &trans &trans &kp MINUS &kp EQUAL &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp BACKSLASH &trans &trans &trans &trans &trans &kp UNDERSCORE &kp PLUS &kp LEFT_BRACE &kp RIGHT_BRACE &kp PIPE &trans &trans &trans &bt BT_CLR &bt BT_NXT &bt BT_PRV 
-      >;
-    };
+//    Raise_layer {
+//      bindings = <
+//        &kp EXCLAMATION &kp AT_SIGN &kp HASH &kp DOLLAR &kp PERCENT &kp CARET &kp AMPERSAND &kp ASTERISK &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &trans &trans &trans &trans &trans &kp MINUS &kp EQUAL &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp BACKSLASH &trans &trans &trans &trans &trans &kp UNDERSCORE &kp PLUS &kp LEFT_BRACE &kp RIGHT_BRACE &kp PIPE &trans &trans &trans &bt BT_CLR &bt BT_NXT &bt BT_PRV 
+//      >;
+//    };
 
   };
 };
