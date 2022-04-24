@@ -4,7 +4,7 @@
 if SHIELD_MINIDOX_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "MINIDOX"
+    default "MINIDOX_BLACK"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
     default y
