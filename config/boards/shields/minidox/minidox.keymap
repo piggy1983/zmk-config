@@ -18,7 +18,7 @@
 
     Lower_layer {
       bindings = <
-        &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp SLASH &kp ASTERISK &kp undefined &kp F7 &kp F8 &kp F9 &kp F10 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp MINUS &kp PLUS &kp K_UNDO &kp K_CUT &kp undefined &kp K_PASTE &kp K_AGAIN &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &trans &kp F11 &kp F12 &bt BT_CLR &bt BT_NXT &kp BT_PRV 
+        &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp SLASH &kp ASTERISK &kp undefined &kp F7 &kp F8 &kp F9 &kp F10 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp MINUS &kp PLUS &kp K_UNDO &kp K_CUT &kp undefined &kp K_PASTE &kp K_AGAIN &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &trans &kp F11 &kp F12 &bt BT_CLR &bt BT_NXT &bt BT_PRV 
       >;
     };
 
