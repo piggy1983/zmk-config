@@ -17,8 +17,8 @@
                         
                 Lower_layer {
                 bindings = <
-    &kp F1    &kp F2  &kp F3  &kp F4 &kp F5     &kp N1 &kp N2 &kp N3 &kp BSLH  &kp STAR 
-    &kp null  &kp F7  &kp F8  &kp F9 &kp F10    &kp N4 &kp N5 &kp N6 &kp MINUS &kp PLUS 
+    &kp F1    &kp F2  &kp F3  &kp F4 &kp F5     &kp N1 &kp N2 &kp N3 &kp BSLH  &kp KP_MULTIPLY  
+    &kp F6    &kp F7  &kp F8  &kp F9 &kp F10    &kp N4 &kp N5 &kp N6 &kp MINUS &kp PLUS 
     &kp F11   &kp F12 &trans  &trans &trans     &kp N7 &kp N8 &kp N9 &kp LPAR  &kp RPAR 
                       &trans  &trans &trans     &trans &kp N0 &kp DOT 
                   >;
@@ -28,10 +28,10 @@
   //                 bindings = <
   //  &kp EXCL &kp AT &kp POUND &kp DLLR &kp PRCNT &kp CARET &kp AMPS &kp ASTRK &kp LPAR &kp RPAR
   //  &kp TAB &kp HOME &kp UP &kp END &kp PG_UP &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp BSLH 
-  //  &kp CAPSLOCK &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN &kp UNDERSCORE &kp PLUS &kp LEFT_BRACE &kp RIGHT_BRACE &kp PIPE 
+  //  &kp CAPS &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN &kp UNDER &kp PLUS &kp LBRC &kp RBRC &kp PIPE 
   //  &trans &trans &trans &trans &kp null &kp DEL 
   //                >;
   //               };
                 
-  };
+                };
 };
