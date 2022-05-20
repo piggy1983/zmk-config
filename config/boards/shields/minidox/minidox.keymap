@@ -1,7 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-#define BASE 0
+
 #define LOWER 1
 #define RAISE 2
 
